@@ -68,7 +68,7 @@ records.forEach((record) => {
 	let entry = "";
 	// Password
 	if (password) {
-		entry += `password: ${password}\n`;
+		entry += `${password}\n`;
 	} else {
 		entry += "default\n";
 	}
@@ -121,4 +121,4 @@ setTimeout(() => {
 			"These probably occurred because an identically-named record already existed, or because there were multiple entries with the same name in the csv file."
 		);
 	}
-}, 5000);
+}, 7000);
