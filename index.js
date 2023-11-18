@@ -70,7 +70,7 @@ records.forEach((record) => {
 	if (password) {
 		entry += `${password}\n`;
 	} else {
-		entry += "default\n";
+		entry += "\n";
 	}
 
 	// URL
